@@ -43,7 +43,10 @@ else if(bmiCalculator(weight,height) > 25 && bmiCalculator(weight,height) <= 30 
 else if(bmiCalculator(weight,height) > 30 && bmiCalculator(weight,height) <= 40 ){
     console.log('Your Bmi Index is Obese')
 }
+else if(bmiCalculator(weight, height) > 41 && bmiCalculator(weight, height) <= 60 ){
+    console.log('Your Bmi Index is Severly Obese')
+}
 else{
-    console.log('Your Bmi Index is Severly Obese.')
+    console.log('Enter valid Weight & Height')
 }
 
