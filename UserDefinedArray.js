@@ -1,7 +1,7 @@
 const prompt = require('prompt-sync')();
 
 var a = [];
-var size = prompt('Enter the size of the array -: ');2
+var size = prompt('Enter the size of the array -: ');
 
 for(var i=0;i<size;i++){
  
