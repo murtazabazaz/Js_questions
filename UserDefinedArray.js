@@ -1,3 +1,5 @@
+// taking array from the user..
+
 const prompt = require('prompt-sync')();
 
 var a = [];
