@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
 
-// program to increment the salary by a given percentage
+// program to increment the salary by a given percentage...
 
 var salary = [];
 var size = prompt('Enter the Number of Employees -: ');
@@ -13,7 +13,7 @@ for (let j = 0; j < salary.length; j++) {
     console.log('Salary for Employee', j + 1, '= Rs.', salary[j]);
 }
 
-// Increment in salary...
+// Increment in salary of an employee...
 
 var percent = parseFloat(prompt('Enter the percent by which the salary has to be increased = '));
 
@@ -28,3 +28,11 @@ console.log('Increased salary by increment of', percent + '%:');
 for (let j = 0; j < salary.length; j++) {
     console.log('New Salary for Employee', j + 1, '= Rs.', salary[j]);
 }
+
+/*
+let a = [1,2,3,4];
+
+a.forEach(function(value, index, arr){
+    console.log('The element at index -:', +index + ' has value = ' + arr[index] );
+})
+*/
