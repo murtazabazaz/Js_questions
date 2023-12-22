@@ -1,7 +1,6 @@
 const prompt = require('prompt-sync')();
 
-//
-
+// Program to give remaining weeks and months...
 function lifeInWeeks(age) {
     
 

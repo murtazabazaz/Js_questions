@@ -1,4 +1,5 @@
 //Code to search name in an array using filter method
+//taking array from user..
 const prompt = require('prompt-sync')();
 let a2 = [];
 const si = prompt('enter size of array-: ');

@@ -5,3 +5,4 @@ var a = Math.random();
 a = a*6;
 console.log(Math.floor(a));
 
+console.log(a*2)
