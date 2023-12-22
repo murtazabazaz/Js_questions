@@ -10,7 +10,7 @@ function bmiCalculator(w, h){
 }
 /* If my weight is 65Kg and my height is 1.8m, I should be able to call your function like this:
 
-var bmi = bmiCalculator(, 1.8); 
+var bmi = bmiCalculator(1.8); 
 
 bmi should equal 20 when it's rounded to the nearest whole number.*/
 
@@ -23,7 +23,7 @@ let height = prompt('Enter your height in Meters -: ');
 console.log('Your Bmi Index is -:', bmiCalculator(weight, height));
 
 
-
+// logic for bmi...
 
 if(bmiCalculator(weight, height) <= 0 ){
     console.log('Your Bmi Index is not defined..')
