@@ -22,4 +22,4 @@ let filteredNames = a2.filter((name)=> name == bw);
            console.log('name not found!!!')
        }
        
-console.log('thanks')
+console.log('thanks alot for visting')

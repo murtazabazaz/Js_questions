@@ -6,3 +6,5 @@ a = a*6;
 console.log(Math.floor(a));
 
 console.log(a*2)
+
+console.log('hello ')
