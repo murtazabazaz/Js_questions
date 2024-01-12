@@ -1,6 +1,7 @@
+// Code for Calculating remaining years...
+
 const prompt = require('prompt-sync')();
 
-// Program to give remaining weeks and months...
 function lifeInWeeks(age) {
     
 
@@ -13,9 +14,9 @@ function lifeInWeeks(age) {
         var y = remain*52;
         var z = remain*12;
          
-        return console.log('You have '+ x + ' days, '+ y +' weeks,' ,'and', z+' months left.'  )
+        return console.log('You have ', remain, 'years ', x, ' days, ', y ,' weeks,' ,'and', z,'months left.'  )
          
-    /*************Don't change the code below**********/
+ 
     }
     
     lifeInWeeks();
