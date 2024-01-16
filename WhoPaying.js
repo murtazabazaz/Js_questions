@@ -1,4 +1,5 @@
 const prompt =require('prompt-sync')()
+// Code to check who pays the bill..
 function whosPaying(names) {
     
     var numberOfPeople = names.length;
@@ -14,4 +15,4 @@ function whosPaying(names) {
  for(let i =0;i<size;i++){
     name[i] = prompt('Enter the Guests name -: ');
 }
-console.log(whosPaying(name));
+console.log("The Lucky person is ", whosPaying(name));
