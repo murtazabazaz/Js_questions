@@ -1,5 +1,5 @@
 const prompt = require('prompt-sync')();
-
+// code to check if a year is leap year or not..
 function isLeap(year) {
     
     var year = prompt("Enter the year to be checked = ");
