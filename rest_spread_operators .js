@@ -33,7 +33,7 @@ const b1 = "no";
 const c1 = {a1, b1}
 console.log(c1)
 
-// 
+// used in react to chnge key values of an object
 
 const emp = {
     name: "murtaza",
