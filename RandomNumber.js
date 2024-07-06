@@ -36,4 +36,6 @@ if(luck>60){
 }
 else{
     console.log("Stay way from everything!!!")
-}
+};
+
+//uygygby8hn
